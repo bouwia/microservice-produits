@@ -71,7 +71,8 @@ public class Product {
     public void setPrix(Double prix) {
         this.prix = prix;
     }
-@Override
+
+    @Override
     public String toString() {
         return "Product{" +
                 "id=" + id +
@@ -84,4 +85,3 @@ public class Product {
 
 
 }
-              
